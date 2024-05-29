@@ -1,0 +1,253 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+header {
+    background-color: #cc1c1c;
+    padding: 5px 20px;
+    color: #ffffff;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    width: 15%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-top: 3%;
+}
+
+nav ul li {
+    margin-left: 20px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fdfdfd;
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+
+
+.search-bar {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 50%;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.categories, .featured-products {
+    padding: 20px;
+    background-color: #faebd730;
+    padding: 20px;
+    margin: 4%;
+    }
+    
+
+
+.categories h2, .featured-products h2 {
+    margin-bottom: 20px;
+    
+}
+
+.category-list, .product-list {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.category-item, .product-item {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 23%;
+    transition: 1s;
+}
+
+.category-item:hover, .product-item:hover {
+
+    width: 25%;
+
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.rating span {
+    color: gold;
+    font-size: 20px;
+}
+
+.rating {
+    margin: 10px 0;
+}
+
+.free-shipping {
+    color: green !important;
+    font-weight: bold;
+}
+
+p{
+    color: #159e2c;
+}
+
+button {
+    font-weight: 600;
+    color: white;
+    border: none;
+    background: transparent;
+}
+
+#deporte {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 25px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVnd1H8GdvnZoa-jkpOL9NqOcVkErKRW2cd90f2iW3HA&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#electro {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 25px;
+    background-image: url(https://img.baba-blog.com/2024/02/consumer-electronics-market-in-united-kingdom_00.jpg?x-oss-process=style%2Flarge);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#moda {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 25px;
+    background-image: url(https://audaces.com/wp-content/uploads/2022/03/estilos-de-moda.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#hogar {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 25px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFbZTI_sayt5Hrbugyz-95-v17cARVHrYNjg&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    color: white;
+
+}
+
+.footeritem {
+    margin: auto;
+    width: 70%;
+    justify-content: center;
+    display: flex;
+    border-bottom: 2px solid white;
+    border-radius: 1cm;
+}
+
+.items{
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    margin: 4%;
+}
+
+
+
+.cart-icon img {
+    filter: invert(95%);
+    width: 30px;
+    height: 30px;
+    
+}
+ 
+#espacio{
+    margin-right: 5%;
+}
+
+.regini {
+    width: 20%;
+}
+
+.logo1 {
+    width: 115%;
+}
+
+.nombrelogo {
+ color: black;
+}
